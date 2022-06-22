@@ -5,11 +5,11 @@ public class gitHubUpdating {
 		System.out.println("Hello World!");
 		
 		
-		
+		sleep();
 		
 		
 	}
- public void sleep() {
+ public static void sleep() {
 	 try {
 		Thread.sleep(1000);
 	} catch (InterruptedException e) {
